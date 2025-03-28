@@ -1,0 +1,657 @@
+/*
+Theme Name: Eunoia
+Author: Eunoia Admin
+Version: 1.0
+Description: A custom WordPress theme from scratch.
+*/
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.9rem;
+}
+p {
+  font-size: 1.2rem;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.col-lg-32{
+  max-width: 32%;
+}
+
+hr {
+  width: 4%;                  
+  height: 3px;                  
+  background-color: #000;       
+  margin-top: 10px;             
+  margin-bottom: 10px;   
+  color: #000;  
+  opacity: 1;     
+}
+.content-wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
+.content-boder{
+  border-radius: 0 0 100px 100px; 
+}
+.bg-pink {
+  background-color: #f3e0ec;
+}
+
+.content-container {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #f3e0ec;
+  height: 90px;
+}
+
+.navbar-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.navbar-collapse.show .navbar-nav .nav-link {
+  background-color: #f3e0ec;
+  font-size: 1.2rem;
+}
+
+.navbar-collapse.show {
+  background-color: #f3e0ec;
+}
+
+.hero-content {
+  margin-bottom: 50px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-content h1,
+.hero-content p,
+.hero-content button,
+.benefit-content h1,
+.benefit-content p,
+.benefit-content button,
+.coursy-content h1,
+.coursy-content p,
+.coursy-content button {
+  margin-bottom: 40px;
+}
+
+
+.coursy-content{
+ padding: 40px 100px 40px 0px;
+}
+
+.benefit-block {
+  height: 100px;
+  width: 80%;
+}
+
+.benefit-blocks {
+  padding-left: 100px;
+}
+
+.hero-content button {
+  padding: 12px 30px;
+}
+
+.learn-btn {
+  background-color: #322b3c;
+  color: #f2befc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.learn-btn:hover {
+  background-color: #f2befc;
+  color: #322b3c;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.benefit-card {
+  min-height: 390px;
+  max-width: 380px;
+}
+
+.h-80 {
+  min-height: 12px !important;
+}
+
+.benefit-img {
+  max-width: 200px;
+}
+
+.block-1 {
+  transform: rotate(-2deg);
+  transform-origin: center;
+}
+
+.block-3 {
+  transform: rotate(2deg);
+  transform-origin: center;
+}
+
+.top-box {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 150px;
+  height: 180px;
+}
+
+.bottom-box {
+  right:0px;
+bottom: 0px;
+position: absolute;
+ width: 300px;
+  height: 200px;
+}
+
+.video-image{
+ max-width: 75%;
+ border-radius: 8%; 
+ border: 1px solid #000; 
+ object-fit: cover; 
+
+}
+
+.star-image {
+  max-width:150px;
+  height:auto;
+}
+
+.student-image{
+  max-width:100px;
+  height:auto;
+}
+
+.icon-img{
+  width:40px;
+}
+
+.team-image{
+  max-width: 100%;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+.black-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+  height: 135px; 
+  background-color: #322B3C;
+  z-index: 1;
+}
+
+.h-image {
+  position: relative; 
+  z-index: 10; 
+}
+
+.green-text a {
+  color: #00b894;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.date-text, .des-text{
+  font-size: 1.1rem;
+}
+
+.heading-text a{
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .hero-content button {
+    width: 100%;
+    padding: 12px;
+  }
+  .benefit-block {
+    height: 80px;
+    width: 100%;
+  }
+  .hero-blog-section {
+    flex-direction: column;
+    padding: 10px !important;
+  }
+  .blog-image{
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:1240px){
+  .heading-text,.des-text,.success-text{
+    margin:5px !important;
+  }
+  .heading-text{
+    font-size:1.3rem;
+  }
+  .des-text{
+    font-size:1.1rem;
+  }
+  .success-text{
+    font-size:1.1rem;
+  }
+
+
+}
+
+@media (max-width: 750px) {
+  .benefit-learning {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media(max-width:1000px){
+  .black-box {
+    display: none !important;
+      }
+}
+
+@media(max-width:1075px){
+  .black-box h1 {
+    font-size: 2rem; 
+  }
+
+  .black-box p {
+    font-size: 1rem; 
+  }
+  .black-box{
+    height:100px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .heading-text,.des-text,.success-text{
+    margin:8px !important;
+  }
+  .heading-text{
+    font-size:1.2rem;
+  }
+  .des-text{
+    font-size:1rem;
+  }
+  .success-text{
+    font-size:1rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  h1 {
+    font-size: 2rem; /* Smaller font size on smaller screens */
+  }
+
+  p {
+    font-size: 1rem; /* Smaller font size for paragraph */
+  }
+
+  .hero-content button {
+    padding: 10px 20px; /* Smaller button padding on smaller screens */
+  }
+
+  .hero-content {
+    padding: 20px;
+    margin-bottom: 0px;
+    text-align: center !important;
+    justify-content: center; /* Padding to give some breathing space on small screens */
+  }
+
+  .learn-btn {
+    display: inline-block;
+    margin: 20px auto;
+    max-width: 968px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .benefit-blocks {
+    padding-left: 0px;
+  }
+
+  .benefit-block {
+    height: 100px;
+    width: 70%;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    transform: translateY(-100%);
+  }
+
+  .navbar-collapse.show {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 15px;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    z-index: 1050;
+  }
+
+  .navbar-brand img {
+    max-height: 50px;
+    z-index: 1050;
+  }
+
+  .benefit-img {
+    max-width: 100px;
+  }
+
+  .coursy-row{
+    padding: 0;
+  }
+
+  .coursy-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .video-image{
+    max-width: 100%;
+  }
+
+  .top-box{
+    display: none;
+  }
+  .bottom-box{
+    display: none;;
+  }
+  .video-image{
+    z-index: 0 !important;
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important
+  }
+  .coursy-image{
+    position: static !important;
+  }
+
+  .col-lg-32{
+    max-width:100%;
+  }
+
+.hear-blocks {
+  padding:0 !important;
+  padding-top:10px !important;}
+
+.hear-block{
+  margin: 0 0 10px 0 !important;
+}
+
+.success-text,.heading-text,.des-text,.user-image{
+  align-self: center !important;
+}
+
+
+.blog-image{
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.blog-user-image{
+  margin-right:20px;
+}
+
+.hero-blog-section {
+  flex-direction: column;
+  padding: 10px !important;
+}
+
+.blog-article {
+  gap: 0rem !important;
+  padding: 2.5rem !important;
+}
+
+.team-header h1{
+  font-size: 1.5rem;
+}
+
+.team-header p{
+  font-size: 1rem;
+}
+
+.team-header{
+  padding: 18px !important;
+}
+
+
+
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .top-box {
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    width: 30%;
+    height: 30%;
+  }
+  
+  .bottom-box {
+    right:10px;
+  bottom: 10%;
+  position: absolute;
+   width: 60%;
+    height: 40%;
+  }
+
+ 
+}
+
+
+
+/*Footer section*/
+
+footer {
+/*  font-family: "Segoe UI", sans-serif;*/
+  font-size: 1rem;
+  background-color: #322b3c !important;
+  border-top: 2px solid #e9ecef !important;
+  color: white;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.2rem !important;
+}
+.fw-semibold {
+  font-size: 2rem;
+}
+.footer-text {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  text-align: left;
+}
+
+.footer-link {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer-logo {
+  width: auto;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.footer-txt{
+  font-size: 1.1rem;
+   max-width: 100%;
+}
+.bi {
+color: white !important;
+}
+
+
+.btn-dark {
+  background-color: rgb(209, 133, 210);
+}
+
+.btn-dark:hover {
+  background-color: rgb(209, 133, 210);
+}
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  overflow-x: hidden;
+}
+
+.newsletter-container,
+.footer-logo,
+.social-icons {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.newsletter-container input,
+.newsletter-container button {
+  height: 100%; 
+  padding: 0.95rem 1rem; 
+  line-height: normal; 
+}
+
+.newsletter-container {
+  display: flex;
+  align-items: stretch;
+}
+.newsletter-container input {
+  background-color: #322B3C !important;
+  border: 2px solid white; 
+  color: white; 
+}
+
+.newsletter-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7); 
+}
+
+.newsletter-container input:focus {
+  background-color: #322B3C !important;
+  border-color: white; 
+  color: white; 
+  outline: none; 
+}
+
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+@media((min-width:1000px) and (max-width:1350px)){
+  .col-lg-32{
+    max-width:30%;
+  }
+}

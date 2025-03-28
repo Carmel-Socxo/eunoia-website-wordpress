@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 25.02 23.77">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke: #f9f08d;
+        stroke-dasharray: 0 0;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect id="ArrowCircleLeft_Background_" class="st0" x="-2.74" y="-3.21" width="30.34" height="30.34"/>
+  <path id="Vector" class="st0" d="M-2.74-3.21v30.34h30.34V-3.21H-2.74Z"/>
+  <path id="Vector-2" d="M12.43,23.34c6.28,0,11.38-5.09,11.38-11.38S18.71.58,12.43.58,1.05,5.68,1.05,11.96h0c0,6.28,5.09,11.38,11.38,11.38Z"/>
+  <path id="Vector-3" class="st1" d="M10.14,15.98l4.02-4.02-4.02-4.02"/>
+  <path id="Vector-4" class="st1" d="M17.17,11.96"/>
+</svg>

@@ -1,0 +1,31 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+# wp-content
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backups/
+/wp-content/debug.log
+
+# Configuration files
+wp-config.php
+wp-config-sample.php
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node.js and Composer dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+/vendor/
+
+# Environment files
+.env
