@@ -15,19 +15,19 @@ get_header();
         <h2 class="fw-bold">A supportive professional <br>to guide you.</h2><br>
         <ul class="list-unstyled">
           <li class="d-flex align-items-start mb-3">
-            <img src="<?php echo get_template_directory_uri(); ?>./images/t-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/t-icon.png">
             <h5 class="fw-bold mb-0">Personal Consultations</h5>
           </li>
           <li class="d-flex align-items-start mb-3">
-            <img src="<?php echo get_template_directory_uri(); ?>./images/t-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/t-icon.png">
             <h5 class="fw-bold mb-0">Group Therapy</h5>
           </li>
           <li class="d-flex align-items-start mb-3">
-            <img src="<?php echo get_template_directory_uri(); ?>./images/t-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/t-icon.png">
             <h5 class="fw-bold mb-0">Online Therapy</h5>
           </li>
           <li class="d-flex align-items-start">
-            <img src="<?php echo get_template_directory_uri(); ?>./images/t-icon.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/t-icon.png">
             <h5 class="fw-bold mb-0">Unique Technique</h5>
           </li>
         </ul>
@@ -37,7 +37,7 @@ get_header();
         </div>
       </div>
       <div class="col-12 col-md-4 position-relative image-container overflow-visible">
-        <img src="<?php echo get_template_directory_uri(); ?>./images/about-us-page-banner.png" alt="Person on Couch" class="img-fluid rounded-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/about-us-page-banner.png" alt="Person on Couch" class="img-fluid rounded-3">
         <div class="position-absolute happy-div translate-middle-x mobile-center">
           <div class="bg-white p-3 rounded-3 m-3 small-box minbox">
             <p class="mb-0">Happy Customers</p>
@@ -54,7 +54,7 @@ get_header();
           <div class="d-flex flex-column">
             <p class="mb-0 fw-bold">Gale</p>
             <div class="mt-1">
-              <img src="<?php echo get_template_directory_uri(); ?>./images/star.svg" alt="Star" class="star-icon">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/star.svg" alt="Star" class="star-icon">
             </div>
             <p class="mb-0">Lorem ipsum dolor</p>
           </div>
@@ -110,7 +110,7 @@ get_header();
   <div class="container ms-lg-5">
     <div class="row align-items-center g-0 offset-lg-2">
       <div class="col-12 col-lg-6 text-center text-lg-end position-relative order-2 order-lg-3">
-        <img src="<?php echo get_template_directory_uri(); ?>./images/About-Eunoia.jpg" alt="Mental Health Support"
+        <img src="<?php echo get_template_directory_uri(); ?>/images/About-Eunoia.jpg" alt="Mental Health Support"
           class="img-fluid rounded-4 shadow-lg main-image">
       </div>
 
@@ -192,7 +192,7 @@ get_header();
 
       <div class="col-12 col-lg-6">
         <div class="h-100 rounded-3 overflow-hidden">
-          <img src="<?php echo get_template_directory_uri(); ?>./images/health-consultation.jpg"
+          <img src="<?php echo get_template_directory_uri(); ?>/images/health-consultation.jpg"
             alt="Mental Health Consultation Process"
             class="img-fluid rounded-3 shadow-sm custom-img">
         </div>
@@ -268,7 +268,7 @@ get_header();
               <div class="h3 text-warning">★★★★★</div>
               <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra auctor velit.</p>
               <h5 class="fw-bold">
-                <img src="<?php echo get_template_directory_uri(); ?> ./images/p1.png" alt="" class="avimg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/p1.png" alt="" class="avimg">
                 Samantha William
               </h5>
             </div>
@@ -279,7 +279,7 @@ get_header();
               <div class="h3 text-warning">★★★★★</div>
               <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra auctor velit.</p>
               <h5 class="fw-bold">
-                <img src="<?php echo get_template_directory_uri(); ?> ./images/p2.png" alt="" class="avimg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/p2.png" alt="" class="avimg">
                 Brooklyn Simmons
               </h5>
             </div>
@@ -290,7 +290,7 @@ get_header();
               <div class="h3 text-warning">★★★★★</div>
               <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra auctor velit.</p>
               <h5 class="fw-bold">
-                <img src="<?php echo get_template_directory_uri(); ?> ./images/p3.png" alt="" class="avimg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/p3.png" alt="" class="avimg">
                 Jenny Wilson
               </h5>
             </div>

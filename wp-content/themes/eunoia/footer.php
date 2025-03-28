@@ -76,16 +76,16 @@
           <h5 class="footer-link mb-3">Follow Us</h5>
           <div class="d-flex justify-content-center gap-4 social-icons">
             <a href="#" class="text-decoration-none">
-              <img src="<?php echo get_template_directory_uri(); ?>./images/fb-logo.png" alt="Facebook" width="32" height="32">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/fb-logo.png" alt="Facebook" width="32" height="32">
             </a>
             <a href="#" class="text-decoration-none">
-              <img src="<?php echo get_template_directory_uri(); ?>./images/x-logo.png" alt="Twitter" width="32" height="32">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/x-logo.png" alt="Twitter" width="32" height="32">
             </a>
             <a href="#" class="text-decoration-none">
-              <img src="<?php echo get_template_directory_uri(); ?>./images/youtube.png" alt="YouTube" width="32" height="32">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/youtube.png" alt="YouTube" width="32" height="32">
             </a>
             <a href="#" class="text-decoration-none">
-              <img src="<?php echo get_template_directory_uri(); ?>./images/insta-logo.png" alt="Instagram" width="32" height="32">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/insta-logo.png" alt="Instagram" width="32" height="32">
             </a>
           </div>
         </div>
