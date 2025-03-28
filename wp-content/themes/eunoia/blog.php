@@ -38,12 +38,16 @@ get_header();
               <p class="mb-4 des-text"><?php echo wp_trim_words(get_the_excerpt(), 30); ?></p>
 
               <div class="row user-image">
-                <div class="col-lg-1 col-md-2 col-sm-2 col-2 p-0 d-flex justify-content-center align-items-center">
-                  <?php echo get_avatar(get_the_author_meta('ID'), 50, '', '', ['class' => 'rounded-circle border border-dark border-2 h-75 m-0 blog-user-img p-0']); ?>
+                <div class="col-lg-1 col-md-3 col-sm-3 col-3 p-0 d-flex justify-content-center align-items-center">
+                  <?php echo get_avatar(get_the_author_meta('ID'), 50, '', '', ['class' => 'rounded-circle border border-dark border-2 h-100 w-100 m-0 blog-user-img p-0']); ?>
                 </div>
-                <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-dflex justify-content-center blog-user-content align-items-left">
+                <div class="col-lg-10 col-md-9 col-sm-9 col-9 d-dflex justify-content-center blog-user-content align-items-left">
                   <p class="fs-4 fw-medium m-0 p-0"><?php the_author(); ?></p>
-                  <p class="m-0 p-0 des-text"><?php the_author_meta('description'); ?></p>
+                  <?php if ($author_description = get_the_author_meta('description')) : ?>
+                    <p class="m-0 p-0 date-text"><?= esc_html($author_description); ?></p>
+                  <?php else : ?>
+                    <p class="m-0 p-0 date-text">Environmental Advocate</p>
+                  <?php endif; ?>
                 </div>
               </div>
             </div>
@@ -91,12 +95,16 @@ get_header();
               <p class="mb-4 des-text"><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
 
               <div class="row user-image">
-                <div class="col-lg-1 col-md-2 col-sm-2 col-2 p-0 d-flex justify-content-center align-items-center">
-                  <?php echo get_avatar(get_the_author_meta('ID'), 50, '', '', ['class' => 'rounded-circle border border-dark border-2 h-75 m-0 blog-user-img p-0']); ?>
+                <div class="col-lg-1 col-md-3 col-sm-3 col-3 p-0 d-flex justify-content-center align-items-center user-img">
+                  <?php echo get_avatar(get_the_author_meta('ID'), 50, '', '', ['class' => 'rounded-circle border border-dark border-2 h-100 w-100 m-0 blog-user-img p-0']); ?>
                 </div>
-                <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-dflex justify-content-center blog-user-content align-items-left">
-                  <p class="fs-4 fw-medium  m-0 p-0"><?php the_author(); ?></p>
-                  <p class="m-0 p-0 des-text"><?php the_author_meta('description'); ?></p>
+                <div class="col-lg-10 col-md-9 col-sm-9 col-9 d-dflex justify-content-center blog-user-content align-items-left">
+                  <p class="fs-4 fw-medium author-text m-0 p-0"><?php the_author(); ?></p>
+                  <?php if ($author_description = get_the_author_meta('description')) : ?>
+                    <p class="m-0 p-0 author-des-text"><?= esc_html($author_description); ?></p>
+                  <?php else : ?>
+                    <p class="m-0 p-0 author-des-text">Environmental Advocate</p>
+                  <?php endif; ?>
                 </div>
               </div>
             </div>

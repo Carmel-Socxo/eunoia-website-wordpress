@@ -243,7 +243,7 @@ position: absolute;
   text-decoration: none;
 }
 
-.date-text, .des-text{
+.date-text, .des-text,.author-des-text{
   font-size: 1.1rem;
 }
 
@@ -252,6 +252,10 @@ position: absolute;
   text-decoration: none;
   font-size: 2rem;
 }
+
+.row.user-image .col-lg-1{ position:relative;}
+ .row.user-image .col-lg-1::after { content: ""; position: absolute; top: 10px; left: 0px; width: 50px; height: 50px; background-image: url("/eunoia-website/wp-content/themes/eunoia/images/blog-p-1.png"); background-size: 30px; background-repeat: no-repeat; border:1px solid black; padding:10px; border-radius:100%; display:flex ; z-index: 9999 !important; background-position: center; } 
+ .row.user-image .col-lg-1 > img{ display:none; }
 
   /*aap*/
   
@@ -894,10 +898,6 @@ position: absolute;
 .blog-image{
   margin-bottom: 10px;
   align-self: center;
-}
-
-.blog-user-image{
-  margin-right:20px;
 }
 
 .hero-blog-section {

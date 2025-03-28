@@ -101,7 +101,7 @@ get_header();
             <div
               class="col-lg-3 col-md-4 col-sm-4 col-4 d-flex flex-column justify-content-center align-items-center">
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/Learn.svg"
+                src="<?php echo get_template_directory_uri(); ?>/images/learn.svg"
                 alt="home-page-banner"
                 class="img-fluid benefit-img" />
             </div>
@@ -118,7 +118,7 @@ get_header();
             <div
               class="col-lg-3 col-md-4 col-sm-4 col-4 d-flex flex-column justify-content-center align-items-center">
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/Graduate.svg"
+                src="<?php echo get_template_directory_uri(); ?>/images/graduate.svg"
                 alt="home-page-banner"
                 class="img-fluid benefit-img" />
             </div>
@@ -135,7 +135,7 @@ get_header();
             <div
               class="col-lg-3 col-md-4 col-sm-4 col-4 d-flex flex-column justify-content-center align-items-center">
               <img
-                src="<?php echo get_template_directory_uri(); ?>/images/Work.svg"
+                src="<?php echo get_template_directory_uri(); ?>/images/work.svg"
                 alt="home-page-banner"
                 class="img-fluid benefit-img" />
             </div>
