@@ -3,7 +3,7 @@
  * Footer Template
  */
 ?>
-
+<div class="content-wrapper">
 <footer class="mt-auto border-top">
       <div class="container py-5">
         <div class="row mb-3 pb-4 border-bottom align-items-center">
@@ -77,19 +77,19 @@
 
           <div class="col-12 col-md-3 order-md-4 text-md-center">
             <h5 class="footer-link mb-3">Follow Us</h5>
-            <div class="d-flex justify-content-center gap-4 social-icons">
-              <a href="#" class="text-decoration-none text-white">
-                <i class="bi bi-facebook fs-4"></i>
-              </a>
-              <a href="#" class="text-decoration-none text-white">
-                <i class="bi bi-twitter fs-4"></i>
-              </a>
-              <a href="#" class="text-decoration-none text-white">
-                <i class="bi bi-youtube fs-4"></i>
-              </a>
-              <a href="#" class="text-decoration-none text-white">
-                <i class="bi bi-instagram fs-4"></i>
-              </a>
+            <div class="d-flex justify-content-center gap-4 social-icons"> 
+                <a href="#" class="text-decoration-none">
+                    <img src="<?php echo get_template_directory_uri(); ?>./images/fb-logo.png" alt="Facebook" width="32" height="32">
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <img src="<?php echo get_template_directory_uri(); ?>./images/x-logo.png" alt="Twitter" width="32" height="32">
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <img src="<?php echo get_template_directory_uri(); ?>./images/youtube.png" alt="YouTube" width="32" height="32">
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <img src="<?php echo get_template_directory_uri(); ?>./images/insta-logo.png" alt="Instagram" width="32" height="32">
+                </a>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@
         </div>
       </div>
     </footer>
-
+</div>
 <?php wp_footer(); ?>
 </body>
 </html>
